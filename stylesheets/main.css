@@ -1,0 +1,33 @@
+body {
+      font-family: 'Nanum Gothic', sans-serif;
+      margin: 0px;
+      margin-right: 195px;
+}
+
+div {
+	display: block
+}
+
+.title {
+  font-size: 40px;
+  color: black;
+  font-weight: 200;
+  text-align: center;
+   margin-left: 3%;
+   margin-right: 3%;
+  padding-top: 35px;
+}
+
+#bio {
+  font-size: 15px;
+  color: black;
+  font-weight: 100;
+  text-align: center, justify;
+  padding-top: 35px;
+}
+
+.center {
+    margin: 0 auto;
+	width: 50%;
+
+}
