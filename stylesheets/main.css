@@ -1,5 +1,5 @@
 body {
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'IBM Plex Sans', sans-serif;
       margin: 0px;
 }
 
@@ -16,7 +16,7 @@ div {
    margin-right: 3%;
   padding-top: 35px;
   padding-bottom: 20px;
-    font-family: 'Cabin', sans-serif;
+  font-family: 'Cabin', sans-serif;
 }
 
 #bio {
@@ -33,22 +33,27 @@ div {
 a {
   font-weight: bold;
   text-decoration: none;
-  color: #4884CF;
 }
-
-a:active {
-  color: black;
+a:link {
+    color:#4884CF;
 }
 
 a:visited {
   color: purple;
 }
 
+a:active {
+  color: black;
+}
+
+a:hover {
+    color:#ff8299;
+}
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 2px solid #ccc;
     margin: 1em 0;
     padding: 0;
 }
@@ -56,8 +61,8 @@ hr {
 .heading {
 	color: black;
 	text-transform: uppercase;
-  	padding-bottom: 10px;
-	font-size:25px
+  	padding-bottom: 30px;
+	font-size:20px
 }
 
 .paper-name {
