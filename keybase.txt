@@ -1,0 +1,57 @@
+deeptir18
+==================================================================
+https://keybase.io/deeptir18
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://deeptir.me
+  * I am deeptir18 (https://keybase.io/deeptir18) on keybase.
+  * I have a public key ASArK8CbPk_r2ycRfrvIc2O9YyYHBCKpmJBGTrCNWX2DQgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202b2bc09b3e4febdb27117ebbc87363bd6326070422a99890464eb08d597d83420a",
+      "host": "keybase.io",
+      "kid": "01202b2bc09b3e4febdb27117ebbc87363bd6326070422a99890464eb08d597d83420a",
+      "uid": "e900eeaae70d968513ce720ed370d019",
+      "username": "deeptir18"
+    },
+    "merkle_root": {
+      "ctime": 1569087119,
+      "hash": "729c0e8bb2957861d2610840defcdc6c29fca77aa0c9d6ba3713310e95f0bc96b17c76280868192d6764848a3503e5167f428693e876b1ccc230794fcd1b958a",
+      "hash_meta": "7ba1b4077183552dcf2da4de7051c61a1c1fcda5bceddad88c18dec00f7e36a8",
+      "seqno": 7670400
+    },
+    "service": {
+      "entropy": "1S1c1gw/cJPdKeplB5sgGfRb",
+      "hostname": "deeptir.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.5.0"
+  },
+  "ctime": 1569087125,
+  "expire_in": 504576000,
+  "prev": "f631f825af6309d3a0a5b742b3d9591e8800adae1baadd53588bf9d93b5e0210",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgKyvAmz5P69snEX67yHNjvWMmBwQiqZiQRk6wjVl9g0IKp3BheWxvYWTESpcCBcQg9jH4Ja9jCdOgpbdCs9lZHogAra4bqt1TWIv52TteAhDEILLPbN2z5sAPUXmeoObAkcFEvXmsgTI08GbyG0I7SbrJAgHCo3NpZ8RA9LM56COKqEAvDMRe9bRN9fgU0TBsKe3luVL3Pm/fCYYhstUBoLM0QEYgZMlCLSXypiM4lQxWPKqzzYgU/3jLCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJwDHCH0qN+XydkvmQ+hShGWv6OQJnxSzGABtCQJTKN4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/deeptir18
+
+==================================================================
