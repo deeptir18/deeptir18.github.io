@@ -16,8 +16,8 @@ body {
 }
 
 .headshot {
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%; /* If you want a circular headshot */
     object-fit: cover; /* Ensure the image fits within the square */
     margin-right: 20px;
