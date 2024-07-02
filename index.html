@@ -21,37 +21,91 @@
 
 
     <body>
-        <div class='title'>Deepti Raghavan</div>
+        <div class="header">
+        <img src="deepti_headshot_2018.jpg" alt="Headshot" class="headshot">
+        <div class="contact-info">
+            <h2 class="name">Deepti Raghavan</h2>
+            <p class="job-title">Assistant Professor of Computer Science, Brown
+            University</p>
+		    <div class="octicon">
+	        <img style="vertical-align:middle; width:30px; padding-right:2px" src="github-octicons/mail.svg">
+	        	<span style="">deeptir [at] brown [dot] edu</span>
+		</div>
+		<div class="octicon">
+		<img style="vertical-align:middle; width:30px; padding-right:2px" src="github-octicons/mark-github.svg">
+		<span style=""><a href="https://github.com/deeptir18">Github</a></span>
+		</div>
+		<div class="octicon">
+		<img style="vertical-align:middle; width:30px; padding-right:2px" src="github-octicons/file.svg">
+        <span style=""><a href="papers/DeeptiRaghavanCV.pdf">Resume</a></span>
+		</div>
+        
+		</div>
+        </div>
+        </div>
         <div class='center' id="bio">
         <div class='content' id="about">
-		<hr/>
-		<div class='heading'>About</div>
-        
-		I am a sixth year PhD student in computer science at Stanford. My
-        research interests largely focus on distributed systems and networking.
-        I am lucky to be advised by
+       I am an Assistant Professor in the Department of Computer Science at
+       Brown University.
+       My research interests focus on operating systems, networking, and
+       machine learning systems.
+        </br>
+        </br>
+
+       Previously, I received my PhD in computer science from Stanford.
+        I was lucky to be advised by
         <a href="https://cs.stanford.edu/~matei/">Matei Zaharia</a>
         and
         <a href="http://csl.stanford.edu/~pal/">Phil Levis</a>.
-        I also closely collaborate with <a href="https://irenezhang.net/">Irene Zhang</a>.
-        I am supported by a
+        I also closely collaborated with <a href="https://irenezhang.net/">Irene Zhang</a>.
+        I was supported by a
         <a href="https://www.nsfgrfp.org/">National Science Foundation Graduate Research Fellowship</a> (2019) and a Stanford School of Engineering Fellowship (2018-2019).
-
-        </br>
-        </br>
-        I received both my Bachelor's (2017) and my M.Eng (2018) degrees at MIT, where I researched in the
+        Even earlier, I received both my Bachelor's (2017) and my M.Eng (2018) degrees at MIT, where I researched in the
         <a href="http://nms.csail.mit.edu/">Networks and Mobile Systems</a> group in
         <a href="https://www.csail.mit.edu/">CSAIL</a>, under
         <a href="http://nms.csail.mit.edu/~hari/">Hari Balakrishnan</a>.
-        My work focused on congestion control; I worked on
-        <a href="https://github.com/ccp-project">CCP</a>.
+        </br>
+        </br>
+        
+        <div class="attention">
+        I am actively recruiting PhD students to join my lab. If you are
+        interested, apply to the Brown CS PhD program and mention my
+        name. If you
+        are a current Brown masters or undergraduate student interested in
+        independent research in systems, email
+        me!
+        </div>
         </div>
 		<hr/>
+
         
 		<div class='content' id="publications">
 		
         <div class='heading'>Selected Publications</div>
         <div>
+        
+            <div>
+		<div class='paper-name'>
+        ALTO: An Efficient Network Orchestrator for Compound AI Systems.</br></div>
+		<div class='authors'>
+        Keshav Santhanam*, <b>Deepti Raghavan*</b>, Muhammad Shahir Rahman,
+        Thejas Venkatesh, Neha Kunjal, Pratiksha Thaker, Philip Levis, Matei
+        Zaharia.
+		</div>
+		<div class='proceedings'>
+            <a href="https://acmsocc.org/2021/">
+            EuroMLSys 2024</a>, Athens, Greece.
+        </div>
+         <div>
+		<button id='paper-button'
+            onclick="location.href='papers/alto_euromlsys2024.pdf'" class="button"><span>Paper</span></button>
+        </div>
+        
+
+
+        </br>
+
+
 		<div class='paper-name'>Cornflakes: Zero-Copy Serialization for
             Microsecond-Scale Networking.</br></div>
 		<div class='authors'>
@@ -89,8 +143,7 @@
 		<button id='paper-button'
             onclick="location.href='papers/socc_clamor.pdf'" class="button"><span>Paper</span></button>
         </div>
-        </div>
-        <div>
+        
 
 
         </br>
@@ -189,30 +242,15 @@
         </div>
 
         </div>
+		<hr/>
 
 
-		<hr/>
-		<div class='content' id="contact">
-		<div class='heading'>Contact</div>
-		<div class="octicon">
-		<img style="vertical-align:middle; width:30px; padding-right:2px" src="github-octicons/mail.svg">
-		<span style="">deeptir [at] cs [dot] stanford [dot] edu</span>
-		</div>
-		<div class="octicon">
-		<img style="vertical-align:middle; width:30px; padding-right:2px" src="github-octicons/mark-github.svg">
-		<span style=""><a href="https://github.com/deeptir18">Github</a></span>
-		</div>
-		<div class="octicon">
-		<img style="vertical-align:middle; width:30px; padding-right:2px" src="github-octicons/file.svg">
-        <span style=""><a href="papers/DeeptiRaghavanCV.pdf">Resume</a></span>
-		</div>
-        
-		</div>
-		<hr/>
-		
         <div class='content' id="misc">
 		<div class='heading'>Misc.</div>
         I am always on the lookout for a good scone, and I enjoy making lattes.
+        I have been playing violin since I was small, and I was lucky to
+        continue playing chamber music throughout college and graduate
+        school.
         Once I contributed a small <span><a
                 href="https://patchwork.ozlabs.org/patch/941532/">Linux kernel
                 commit</a></span> :P.
@@ -220,7 +258,7 @@
 
     <div class="footer">
     <div><hr/></div>
-    Last updated: November, 2023 | Designed with &#9786; by dr | <div>Favicon
+    Last updated: July, 2024 | Designed with &#9786; by dr | <div>Favicon
         made by <a href="https://www.flaticon.com/authors/smashicons"
             title="Smashicons">Smashicons</a> from <a
             href="https://www.flaticon.com/"

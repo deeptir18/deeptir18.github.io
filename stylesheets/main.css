@@ -4,6 +4,61 @@ body {
       padding-bottom: 5px;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+	width: 60%;
+    box-sizing: border-box;
+}
+
+.headshot {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%; /* If you want a circular headshot */
+    object-fit: cover; /* Ensure the image fits within the square */
+    margin-right: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    margin: 0;
+    font-size: 24px;
+}
+.attention {
+  font-style: italic;
+}
+.job-title, .email {
+    margin: 0;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headshot {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .contact-info {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
 div {
 	display: block
 }
