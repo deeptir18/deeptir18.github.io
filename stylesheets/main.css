@@ -121,7 +121,7 @@ hr {
 .heading {
 	color: black;
 	text-transform: uppercase;
-  	padding-bottom: 30px;
+  	padding-bottom: 10px;
 	font-size:20px;
     /*text-align:center;*/
 }
